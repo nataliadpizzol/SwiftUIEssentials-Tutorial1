@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D801639B29D352C70099C42C /* LandmarcksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D801639A29D352C70099C42C /* LandmarcksApp.swift */; };
+		D801639D29D352C70099C42C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D801639C29D352C70099C42C /* ContentView.swift */; };
+		D801639F29D352C90099C42C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D801639E29D352C90099C42C /* Assets.xcassets */; };
+		D80163A229D352C90099C42C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D80163A129D352C90099C42C /* Preview Assets.xcassets */; };
+		D80163AD29D352C90099C42C /* LandmarcksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80163AC29D352C90099C42C /* LandmarcksTests.swift */; };
+		D80163B729D352C90099C42C /* LandmarcksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80163B629D352C90099C42C /* LandmarcksUITests.swift */; };
+		D80163B929D352C90099C42C /* LandmarcksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80163B829D352C90099C42C /* LandmarcksUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D80163A929D352C90099C42C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D801638F29D352C70099C42C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D801639629D352C70099C42C;
+			remoteInfo = Landmarcks;
+		};
+		D80163B329D352C90099C42C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D801638F29D352C70099C42C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D801639629D352C70099C42C;
+			remoteInfo = Landmarcks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D801639729D352C70099C42C /* Landmarcks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarcks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D801639A29D352C70099C42C /* LandmarcksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarcksApp.swift; sourceTree = "<group>"; };
+		D801639C29D352C70099C42C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D801639E29D352C90099C42C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D80163A129D352C90099C42C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D80163A329D352C90099C42C /* Landmarcks.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Landmarcks.entitlements; sourceTree = "<group>"; };
+		D80163A829D352C90099C42C /* LandmarcksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandmarcksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D80163AC29D352C90099C42C /* LandmarcksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarcksTests.swift; sourceTree = "<group>"; };
+		D80163B229D352C90099C42C /* LandmarcksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandmarcksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D80163B629D352C90099C42C /* LandmarcksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarcksUITests.swift; sourceTree = "<group>"; };
+		D80163B829D352C90099C42C /* LandmarcksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarcksUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D801639429D352C70099C42C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80163A529D352C90099C42C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80163AF29D352C90099C42C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D801638E29D352C70099C42C = {
+			isa = PBXGroup;
+			children = (
+				D801639929D352C70099C42C /* Landmarcks */,
+				D80163AB29D352C90099C42C /* LandmarcksTests */,
+				D80163B529D352C90099C42C /* LandmarcksUITests */,
+				D801639829D352C70099C42C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D801639829D352C70099C42C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D801639729D352C70099C42C /* Landmarcks.app */,
+				D80163A829D352C90099C42C /* LandmarcksTests.xctest */,
+				D80163B229D352C90099C42C /* LandmarcksUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D801639929D352C70099C42C /* Landmarcks */ = {
+			isa = PBXGroup;
+			children = (
+				D801639A29D352C70099C42C /* LandmarcksApp.swift */,
+				D801639C29D352C70099C42C /* ContentView.swift */,
+				D801639E29D352C90099C42C /* Assets.xcassets */,
+				D80163A329D352C90099C42C /* Landmarcks.entitlements */,
+				D80163A029D352C90099C42C /* Preview Content */,
+			);
+			path = Landmarcks;
+			sourceTree = "<group>";
+		};
+		D80163A029D352C90099C42C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D80163A129D352C90099C42C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D80163AB29D352C90099C42C /* LandmarcksTests */ = {
+			isa = PBXGroup;
+			children = (
+				D80163AC29D352C90099C42C /* LandmarcksTests.swift */,
+			);
+			path = LandmarcksTests;
+			sourceTree = "<group>";
+		};
+		D80163B529D352C90099C42C /* LandmarcksUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D80163B629D352C90099C42C /* LandmarcksUITests.swift */,
+				D80163B829D352C90099C42C /* LandmarcksUITestsLaunchTests.swift */,
+			);
+			path = LandmarcksUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D801639629D352C70099C42C /* Landmarcks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D80163BC29D352C90099C42C /* Build configuration list for PBXNativeTarget "Landmarcks" */;
+			buildPhases = (
+				D801639329D352C70099C42C /* Sources */,
+				D801639429D352C70099C42C /* Frameworks */,
+				D801639529D352C70099C42C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Landmarcks;
+			productName = Landmarcks;
+			productReference = D801639729D352C70099C42C /* Landmarcks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D80163A729D352C90099C42C /* LandmarcksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D80163BF29D352C90099C42C /* Build configuration list for PBXNativeTarget "LandmarcksTests" */;
+			buildPhases = (
+				D80163A429D352C90099C42C /* Sources */,
+				D80163A529D352C90099C42C /* Frameworks */,
+				D80163A629D352C90099C42C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D80163AA29D352C90099C42C /* PBXTargetDependency */,
+			);
+			name = LandmarcksTests;
+			productName = LandmarcksTests;
+			productReference = D80163A829D352C90099C42C /* LandmarcksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D80163B129D352C90099C42C /* LandmarcksUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D80163C229D352C90099C42C /* Build configuration list for PBXNativeTarget "LandmarcksUITests" */;
+			buildPhases = (
+				D80163AE29D352C90099C42C /* Sources */,
+				D80163AF29D352C90099C42C /* Frameworks */,
+				D80163B029D352C90099C42C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D80163B429D352C90099C42C /* PBXTargetDependency */,
+			);
+			name = LandmarcksUITests;
+			productName = LandmarcksUITests;
+			productReference = D80163B229D352C90099C42C /* LandmarcksUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D801638F29D352C70099C42C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					D801639629D352C70099C42C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					D80163A729D352C90099C42C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D801639629D352C70099C42C;
+					};
+					D80163B129D352C90099C42C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D801639629D352C70099C42C;
+					};
+				};
+			};
+			buildConfigurationList = D801639229D352C70099C42C /* Build configuration list for PBXProject "Landmarcks" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D801638E29D352C70099C42C;
+			productRefGroup = D801639829D352C70099C42C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D801639629D352C70099C42C /* Landmarcks */,
+				D80163A729D352C90099C42C /* LandmarcksTests */,
+				D80163B129D352C90099C42C /* LandmarcksUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D801639529D352C70099C42C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D80163A229D352C90099C42C /* Preview Assets.xcassets in Resources */,
+				D801639F29D352C90099C42C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80163A629D352C90099C42C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80163B029D352C90099C42C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D801639329D352C70099C42C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D801639D29D352C70099C42C /* ContentView.swift in Sources */,
+				D801639B29D352C70099C42C /* LandmarcksApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80163A429D352C90099C42C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D80163AD29D352C90099C42C /* LandmarcksTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80163AE29D352C90099C42C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D80163B929D352C90099C42C /* LandmarcksUITestsLaunchTests.swift in Sources */,
+				D80163B729D352C90099C42C /* LandmarcksUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D80163AA29D352C90099C42C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D801639629D352C70099C42C /* Landmarcks */;
+			targetProxy = D80163A929D352C90099C42C /* PBXContainerItemProxy */;
+		};
+		D80163B429D352C90099C42C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D801639629D352C70099C42C /* Landmarcks */;
+			targetProxy = D80163B329D352C90099C42C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D80163BA29D352C90099C42C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D80163BB29D352C90099C42C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D80163BD29D352C90099C42C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Landmarcks/Landmarcks.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Landmarcks/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nataliadpizzol.Landmarcks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D80163BE29D352C90099C42C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Landmarcks/Landmarcks.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Landmarcks/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nataliadpizzol.Landmarcks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D80163C029D352C90099C42C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nataliadpizzol.LandmarcksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Landmarcks.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Landmarcks";
+			};
+			name = Debug;
+		};
+		D80163C129D352C90099C42C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nataliadpizzol.LandmarcksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Landmarcks.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Landmarcks";
+			};
+			name = Release;
+		};
+		D80163C329D352C90099C42C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nataliadpizzol.LandmarcksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Landmarcks;
+			};
+			name = Debug;
+		};
+		D80163C429D352C90099C42C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nataliadpizzol.LandmarcksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Landmarcks;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D801639229D352C70099C42C /* Build configuration list for PBXProject "Landmarcks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D80163BA29D352C90099C42C /* Debug */,
+				D80163BB29D352C90099C42C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D80163BC29D352C90099C42C /* Build configuration list for PBXNativeTarget "Landmarcks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D80163BD29D352C90099C42C /* Debug */,
+				D80163BE29D352C90099C42C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D80163BF29D352C90099C42C /* Build configuration list for PBXNativeTarget "LandmarcksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D80163C029D352C90099C42C /* Debug */,
+				D80163C129D352C90099C42C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D80163C229D352C90099C42C /* Build configuration list for PBXNativeTarget "LandmarcksUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D80163C329D352C90099C42C /* Debug */,
+				D80163C429D352C90099C42C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D801638F29D352C70099C42C /* Project object */;
+}
